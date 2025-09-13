@@ -21,7 +21,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./index.css" />
-    <title>Pinwheel-tailwind-phong</title>
+    <title>Pinwheel-tailwind</title>
   </head>
   <body>
     <header>
@@ -34,10 +34,9 @@
           <ul>
             <li><a href="#" class="active">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
             <li><a href="#">Features</a></li>
             <li><a href="#">How It Works</a></li>
-            <li><a href="#">Pages</a></li>
+            <li><a href="#" for="menu">Pages</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
@@ -145,6 +144,53 @@
         </div>
       </div>
     </section>
+    <section class="integration py-8">
+      <div class="flex gap-2 container" data-tab-group="integration-tab">
+        <div class="mt-6 lg:mt-0">
+          <div class="text-container">
+            <h2 class="lg:text-4xl font-bold">
+              Prevent failure from to impacting your reputation
+            </h2>
+            <p class="mt-4">
+              Our platform helps you build secure onboarding authentication
+              experiences that retain and engage your users. We build the
+              infrastructure, you can.
+            </p>
+            <ul class="tab-nav -ml-4 mt-8 border-b-0" data-tab-nav="">
+              <li class="tab-nav-item cursor-pointer" data-tab="0">
+                <i class="fa-solid fa-water"></i>
+                Habit building essential choose habit
+              </li>
+              <li class="tab-nav-item cursor-pointer" data-tab="1">
+                <i class="fa-solid fa-brain"></i>
+                Get an overview of Habit Calendars.
+              </li>
+              <li class="tab-nav-item cursor-pointer" data-tab="2">
+                <i class="fa-solid fa-hourglass"></i>
+                Start building with Habitify platform
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="image">
+          <div class="tab-content" data-tab-content="">
+            <div class="tab-content-panel" data-tab-panel="0">
+              <img class="w-full object-contain" src="./header/map.png" />
+            </div>
+            <div class="tab-content-panel" data-tab-panel="1">
+              <img
+                class="w-full object-contain"
+                src="./header/collaboration.png"
+              />
+            </div>
+            <div class="tab-content-panel" data-tab-panel="2">
+              <img class="w-full object-contain" src="./header/map.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <script src="./main_header.js"></script>
   </body>
 </html>
