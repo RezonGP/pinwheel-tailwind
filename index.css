@@ -213,3 +213,37 @@
      font-size: 18px;
      margin-bottom: 10px;
  }
+
+ .tab-content-panel {
+     display: none;
+     opacity: 0;
+     transition: all 0.3s ease;
+ }
+
+ .tab-content-panel.active {
+     display: block;
+     opacity: 1;
+ }
+
+ .tab-nav-item.active {
+     background: #FCBCA0;
+     border-radius: 10px;
+ }
+
+ .integration .container .image img {
+     width: 1300px;
+     border-radius: 12px;
+ }
+
+ .integration .container .text-container {
+     width: 70%;
+ }
+
+ .integration .container .text-container li {
+     padding: 10px;
+     margin: 10px auto;
+ }
+
+ .integration .container .text-container i {
+     color: #ff6f3c;
+ }
